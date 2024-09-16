@@ -1,0 +1,57 @@
+.title{
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  background-color: #2b3452;
+  color: white;
+}
+body{
+  margin:0;
+}
+.todoBody{
+  display: flex;
+  justify-content: center;
+}
+.addTask {
+  color: white;
+  background-color: #57638a;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  cursor: move;
+  background-color: #2b3452;
+  padding: 12px;
+  box-shadow: 1px 2px 2px -1px #4b6ddf;
+  width: 250px;
+  margin: 25px 0;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+}
+button{
+  border-radius: 8px;
+  border: 1px solid #f0ebeb;
+}
+.panel {
+  color: white;
+  width: 45%;
+  background-color: #102136;
+  border: 1px solid #140e0e;
+  border-radius: 8px;
+  min-width: 300px;
+  min-height: 100px;
+  margin: 0 10px;
+  padding: 0 15px;
+}
+#todo-list, #done-list {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 0;
+  border: 0;
+  cursor: default;
+}
